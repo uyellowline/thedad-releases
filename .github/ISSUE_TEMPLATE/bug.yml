@@ -1,0 +1,29 @@
+name: Ошибка
+description: Что-то работает не так
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что произошло
+      description: Что вы делали и что увидели вместо ожидаемого.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Где
+      options: [Браузер (thedad.ru), Windows (установщик), Windows (portable), Расширение Chrome]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия
+      description: Настройки → О приложении.
+  - type: textarea
+    id: report
+    attributes:
+      label: Отчёт об ошибке
+      description: Если приложение показало экран ошибки — нажмите «Скопировать отчёт» и вставьте сюда.
+      render: text
