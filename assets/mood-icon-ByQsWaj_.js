@@ -1,0 +1,1 @@
+import{j as n}from"./vendor-BK0wQa1K.js";import{ak as r}from"./index-BVp8ATSj.js";import{bq as t,br as m,bs as o,y as c,bt as e}from"./icons-8wOHkuiu.js";const b=["Очень плохое","Плохое","Нейтральное","Хорошее","Отличное"],i=[t,m,o,c,e],f=({mood:s,className:a})=>n.jsx(r,{icon:i[s]??o,className:a});export{b as M,f as a};

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://accounts.google.com; style-src 'self' 'unsafe-inline' https://accounts.google.com; img-src 'self' data: blob: https:; font-src 'self' data:; media-src 'self' data: blob:; connect-src 'self' https: http:; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://accounts.google.com; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <title>THEDAD — планер целей</title>
+        <meta name="theme-color" content="#0a0a0a" />
+        <!-- iOS: запуск с домашнего экрана как отдельное приложение -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="THEDAD" />
+        <script src="/theme-init.js"></script>
+        <!-- Шрифт Inter подключается из src/index.css (@fontsource-variable/inter):
+             сборщик сам кладёт нужные подмножества в dist, ничего не тянется со стороны. -->
+
+        <!-- Тема-зависимая иконка вкладки: тёмный под на светлой теме, белый — на тёмной -->
+        <link rel="icon" type="image/png" href="/logo-light.png" media="(prefers-color-scheme: light)" />
+        <link rel="icon" type="image/png" href="/logo-dark.png" media="(prefers-color-scheme: dark)" />
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="shortcut icon" href="/assets/favicon-dCGSZRPt.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+      <script type="module" crossorigin src="/assets/index-BVp8ATSj.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/vendor-BK0wQa1K.js">
+      <link rel="modulepreload" crossorigin href="/assets/icons-8wOHkuiu.js">
+      <link rel="modulepreload" crossorigin href="/assets/radix-MLPB-lPV.js">
+      <link rel="modulepreload" crossorigin href="/assets/sqlite-Djj0Ftbl.js">
+      <link rel="modulepreload" crossorigin href="/assets/date-BO0hvMKo.js">
+      <link rel="modulepreload" crossorigin href="/assets/grid-DxFF4iBl.js">
+      <link rel="modulepreload" crossorigin href="/assets/cmdk-UNTEhrDb.js">
+      <link rel="stylesheet" crossorigin href="/assets/vendor-Dgihpmma.css">
+      <link rel="stylesheet" crossorigin href="/assets/grid-C9-ySRfk.css">
+      <link rel="stylesheet" crossorigin href="/assets/index-DDaqgH7m.css">
+    </head>
+    <body class="bg-bg text-text antialiased">
+        <div id="root"></div>
+    </body>
+</html>

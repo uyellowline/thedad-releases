@@ -1,0 +1,1 @@
+import{C as o}from"./vendor-BK0wQa1K.js";const r=o(t=>({running:!1,phase:"work",secondsLeft:0,taskTitle:null,pauseAction:null,resumeAction:null,stopAction:null,set:n=>t(n)}));function a(t){return`${String(Math.floor(t/60)).padStart(2,"0")}:${String(t%60).padStart(2,"0")}`}export{a as f,r as u};

@@ -1,0 +1,1 @@
+import{r as e,j as o}from"./vendor-BK0wQa1K.js";import{bm as t}from"./index-BVp8ATSj.js";const m=e.forwardRef(({className:a,...r},s)=>o.jsx("div",{ref:s,className:t("page",a),...r}));m.displayName="PageContainer";export{m as P};
